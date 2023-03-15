@@ -1,0 +1,26 @@
+ALGORITHM SECOND TASK
+VAR 
+set 1: array of INTEGER[i]
+set 2: array of INTEGER[j]
+set 3: array of INTEGER[]
+j,i : INTEGER
+sum : INTEGER
+int sum = 0
+BEGIN
+FOR i FROM 0 TO length (set 1);
+AND
+FOR J FROM 0 TO length (set 2);
+DO
+IF (set1[i] <> set2[j]);
+THEN
+set3[] := set1[i];
+ELSE 
+set3[] := set2[j];
+write ("set3[]")
+read ("set3[]")
+END IF
+END FOR
+sum := set3[i+j];
+write ("somme")
+read ("sum")
+END

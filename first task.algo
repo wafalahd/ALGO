@@ -1,0 +1,23 @@
+ALGORITHM FIRST TASK
+VAR 
+"word" : STRING
+" ": CHAR
+".": CHAR
+nbw : INTEGER
+nbv : INTEGER
+
+BEGIN
+write ("nbw"):
+write ("nbv"):
+FOR each word in the sentence;
+" ":= word
+".":= word
+DO nbw = nbw + 1;
+END FOR
+FOR I=0 TO length sentence DO
+IF word :={"a","e","i","o","u","y"};
+THAN 
+nbv := nbv + 1;
+END IF
+END FOR
+END
